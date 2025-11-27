@@ -384,7 +384,7 @@ body.menu-open {
   font-family: var(--font-serif);
   font-size: clamp(2.2rem, 5vw, 3.5rem);
   font-weight: 700;
-  color: #886b5f;
+  color: #f8f8f6;
   margin-bottom: 60px;
   word-break: break-word;
   line-height: 1.4;
@@ -655,7 +655,7 @@ body.menu-open {
     /* Використовуємо узгоджений розмір H2 для ієрархії */
     font-size: 2.8rem; 
     text-align: center;
-    color: #886b5f;
+    color: #f8f8f6;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 40px;
 }
@@ -738,14 +738,14 @@ body.menu-open {
 .step-title {
     font-size: 1.4rem;
     font-weight: 600;
-    color: #886b5f;
+    color: #f8f8f6;
     margin-bottom: 12px;
     font-family: 'Inter', sans-serif;
 }
 
 .step-text {
     font-size: 1rem;
-    color: var(--color-text);
+    color: #f8f8f6;
     line-height: 1.7;
     font-family: 'Inter', sans-serif;
 }
@@ -1319,7 +1319,7 @@ body.menu-open {
     max-width: 900px;
     
     /* ЗМІНЕНО: СУЦІЛЬНИЙ КОЛІР замість градієнта для контрасту */
-    color: #886b5f; /* Головний акцент */
+    color: #f8f8f6; /* Головний акцент */
     
     /* Видаляємо background-clip та text-fill-color, оскільки колір суцільний */
     
@@ -1418,7 +1418,7 @@ body.menu-open {
     font-family: var(--font-serif);
     font-size: 2rem; 
     font-weight: 700;
-    color: #886b5f;
+    color: #f8f8f6;
     text-shadow: 0 1px 3px rgba(0,0,0,0.4); 
     margin: 0 0 14px 0; 
     text-align: left; 
@@ -1427,7 +1427,7 @@ body.menu-open {
 .organizer-slogan {
     font-size: 1.22rem;
     /* АКЦЕНТНИЙ КОЛІР - ГОЛОВНИЙ АКЦЕНТ */
-    color: #886b5f; 
+    color: #f8f8f6; 
     margin: 0;
     font-weight: 300;
     font-style: italic;
@@ -1448,7 +1448,7 @@ body.menu-open {
     align-items: flex-start;
     gap: 18px;
     padding: 12px;
-    background: #886b5f0d;
+    background: #886b5f;
     border-radius: 12px;
     border: 1px solid #ccc0b233;
     transition: all 0.4s ease;
@@ -1461,7 +1461,7 @@ body.menu-open {
 
 .service-icon {
     /* АКЦЕНТНИЙ КОЛІР - ГОЛОВНИЙ АКЦЕНТ */
-    color: #886b5f; 
+    color: #ccc0b2; 
     font-size: 1.45rem;
     font-weight: bold;
     flex-shrink: 0;
@@ -1568,15 +1568,14 @@ body.menu-open {
     /* Для заголовка секції використовуємо узгоджений розмір 2.8rem (якщо це H2) */
     font-size: 2.8rem; 
     margin-bottom: 40px;
-    color: #886b5f;
-    /* Тінь для глибини */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #f8f8f6;
+   
 }
 
 /* FAQ-ЕЛЕМЕНТ: АКЦЕНТНА ГАММА */
 .faq-item {
     /* ЗМІНЕНО: Фон з 5% opacity */
-    background: #886b5f0d;
+    background: #886b5f;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     margin-bottom: 16px;
@@ -1584,7 +1583,7 @@ body.menu-open {
     transition: all 0.4s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
     /* Бордер з 20% opacity */
-    border: 1px solid #ccc0b233;
+    border: 1px solid #ccc0b2;
 }
 
 .faq-question {
@@ -1592,7 +1591,7 @@ body.menu-open {
     cursor: pointer;
     font-weight: 600;
     text-align: left;
-    color: var(--color-text);
+    color: #f8f8f6;
     position: relative;
     transition: all 0.3s ease;
 }
@@ -1609,8 +1608,8 @@ body.menu-open {
 
 /* ЗМІНЕНО: Активний елемент стає ГОЛОВНИМ АКЦЕНТОМ */
 .faq-item.active .faq-question {
-    color: var(--color-accent-1);
-    text-shadow: 0 0 5px rgba(136, 107, 95, 0.5);
+    color: #f8f8f6;
+    
 }
 
 .faq-item.active .faq-question::after {
@@ -1688,7 +1687,7 @@ body.menu-open {
     font-size: 2.5rem;
     font-weight: 700;
     /* ГРАДІЄНТ ЛОГОТИПУ: АКЦЕНТИ */
-    background: linear-gradient(45deg, var(--color-accent-1), var(--color-accent-2));
+    background: #f8f8f6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1725,7 +1724,7 @@ body.menu-open {
     
     /* ФОН КНОПКИ: ПРОЗОРИЙ АКЦЕНТ */
     border: 1px solid rgba(136, 107, 95, 0.15);
-    background: rgba(136, 107, 95, 0.1); 
+    background: #886b5f; 
     
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     position: relative;
@@ -1838,6 +1837,7 @@ body.menu-open {
         font-size: 1rem;
     }
 }
+
 
 
 
