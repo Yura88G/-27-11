@@ -877,7 +877,7 @@ body.menu-open {
     max-width: 300px;
     height: 10px;
     border-radius: 6px;
-    background: rgba(136, 107, 95, 0.6); /* Чіткий фон */
+    background: #886b5f; /* Чіткий фон */
     outline: none;
     margin: 8px 0;
     cursor: pointer;
@@ -1079,7 +1079,7 @@ body.menu-open {
 .profile-name {
     font-family: var(--font-serif);
     font-size: 1.5rem;
-    color: #886b5f;
+    color: #f8f8f6;
     margin: 0 0 6px;
 }
 
@@ -1209,7 +1209,7 @@ body.menu-open {
     font-family: var(--font-serif);
     font-size: 2.5rem;
     font-weight: 700;
-    color: #886b5f;
+    color: #f8f8f6;
     margin-bottom: 5px;
 }
 
@@ -1837,6 +1837,7 @@ body.menu-open {
         font-size: 1rem;
     }
 }
+
 
 
 
