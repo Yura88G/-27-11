@@ -680,14 +680,14 @@ body.menu-open {
 
 /* GLASSMORPHISM КАРТКА — АКЦЕНТНА ГАММА */
 .step-card {
-    background: #886b5f0d;
+    background: #886b5f;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border-radius: 20px;
     padding: 32px 24px;
     
     /* Бордер з 20% opacity */
-    border: 1px solid #ccc0b233; 
+    border: 1px solid #ccc0b2; 
     
     /* Тінь/Світіння тепер СРІБЛЯСТЕ */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
@@ -1837,6 +1837,7 @@ body.menu-open {
         font-size: 1rem;
     }
 }
+
 
 
 
