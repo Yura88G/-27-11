@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket 2 Love – Ваш квиток до справжнього кохання</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+
+   <!-- КОМПЛЕКСНЕ ВИПРАВЛЕННЯ: ХЕДЕР + МОБІЛЬНЕ МЕНЮ -->
+<header class="main-header" id="main-header">
+    <a href="index.html" class="logo-link">
+        <img src="assets/img/logo.png" alt="Логотип Ticket 2 Love" class="logo">
+    </a>
+
+    <nav class="main-nav" aria-label="Основна навігація">
+        <a href="index.html">Головна</a>
+        <a href="#about">Організатор</a>
+        <a href="#how-it-works">Як це працює</a>
+        <a href="#faq">Часті Питання</a>
+    </nav>
+
+    <!-- Нова кнопка-гамбургер для мобільного меню -->
+    <button class="hamburger-btn" type="button" aria-label="Відкрити меню" aria-controls="mobile-menu" aria-expanded="false">
+        <span class="hamburger-btn__line"></span>
+        <span class="hamburger-btn__line"></span>
+        <span class="hamburger-btn__line"></span>
+    </button>
+
+    <!-- Кнопка дзвінка для мобільних пристроїв -->
+    <a href="tel:+380989970753" class="header-call-btn" title="Зателефонувати">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="#570009"/>
+        </svg>
+    </a>
+
+    <!-- Slide-over мобільне меню -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобільна навігація" aria-hidden="true" tabindex="-1">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="index.html">Головна</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#about">Організатор</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#how-it-works">Як це працює</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#faq">Часті Питання</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+<!-- WOW-ефект логотипу на весь екран -->
+<div class="hero-logo-intro">
+  <h3 class="hero-logo-text">TICKET_2_LOVE</h3>
+</div>         
+
+<section class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-content container">
+        <h1 class="hero-title">Знайомства, що змінять все. Ваш квиток до справжнього кохання.</h1>
+        <h2 class="hero-subtitle">Ніяких свайпів. Лише підібрані особисто для Вас зустрічі.</h2>
+        
+    </div>
+</section>
+
+<!-- Секція з кнопками -->
+<section id="selection" class="selection-section">
+  <div class="selection-block">
+    <a href="catalogue.html?gender=male" class="cta-button cta-him">
+      Я шукаю ЙОГО
+    </a>
+    <a href="catalogue.html?gender=female" class="cta-button cta-her">
+      Я шукаю ЇЇ
+    </a>
+  </div>
+</section>
+
+   <!-- ======================================== -->
+<!-- БЛОК: ТРИ КРОКИ ДО ЗУСТРІЧІ (GLASSMORPHISM) -->
+<!-- ======================================== -->
+<section id="how-it-works" class="steps-section fade-in" data-aos="fade-up">
+    <h2 class="steps-title">Три кроки до вашої зустрічі</h2>
+    
+    <div class="steps-container">
+        <!-- Крок 1 -->
+        <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+            </div>
+            <h5 class="step-title">Ваш Вибір</h5>
+            <p class="step-text">
+                Оберіть <span class="accent">2–3 профілі</span>, які вас найбільше зацікавили — просто додайте їх до списку «Мої Обрані».
+            </p>
+        </div>
+
+        <!-- Крок 2 -->
+        <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+            </div>
+            <h5 class="step-title">Персональна Консультація</h5>
+            <p class="step-text">
+                Наш адміністратор зв’яжеться з вами, щоб обговорити деталі та організувати зустріч.
+            </p>
+        </div>
+
+        <!-- Крок 3 -->
+        <div class="step-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="step-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 5h3a2 2 0 0 1 2 2v3m0 0v6a2 2 0 0 1-2 2h-3m3-8H9m0 0H6a2 2 0 0 0-2 2v3m0 0v3a2 2 0 0 0 2 2h3"/>
+                    <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+            </div>
+            <h5 class="step-title">Насолоджуйтесь Побаченням</h5>
+            <p class="step-text">
+                Зустрічайтеся. Усміхайтеся. Створюйте спогади. <span class="accent">Ми вже все підготували для вас.</span>
+            </p>
+        </div>
+    </div>
+
+</section>
+            
+    <!-- ======================================== -->
+<!-- СЕКЦІЯ: ОРГАНІЗАТОР — ПРЕМІУМ ВЕРСІЯ -->
+<!-- ======================================== -->
+<section id="about" class="organizer-section">
+    
+    <h2 class="organizer-title">Організатор</h2> 
+
+    <div class="organizer-container">
+        <div class="organizer-header">
+            <div class="organizer-photo-wrapper">
+                <img src="assets/img/organizer-photo.jpg" alt="Наталія Беринко" class="organizer-photo">
+            </div>
+            
+            <div class="organizer-info">
+                <h3 class="organizer-name">Наталія Беринко</h3>
+                <p class="organizer-slogan">
+                    Створюю моменти, що стають спогадами...
+                </p>
+            </div>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Романтичні побачення "під ключ"</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Побачення-сюрпризи</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Романтичні вибачення</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Пропозиції руки і серця</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Святкування річниць</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">◆</span>
+                <span class="service-title">Квести для двох — під вашу історію кохання</span>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- ======================================== -->
+<!-- 4.1. FAQ — Часті питання (на головній)   -->
+<!-- ======================================== -->
+<section class="faq-section" id="faq" data-aos="fade-up">
+    <h2>Часті Питання</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question">Як обрати профіль?</div>
+        <div class="faq-answer">Натисніть ❤️ на картці в каталозі. Ви можете обрати до 3 профілів.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Чому ліміт 3 профілі?</div>
+        <div class="faq-answer">Це оптимально для персональної заявки. Ви отримаєте детальний аналіз.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Чи можна змінити вибір?</div>
+        <div class="faq-answer">Так! Натисніть ❤️ ще раз — вибір зніметься.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Як працює фільтр?</div>
+        <div class="faq-answer">Оберіть "Шукаю його" або "Шукаю її" → фільтр за віком у каталозі.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Чи безпечно?</div>
+        <div class="faq-answer">Так! Усі дані конфіденційні. Ми не передаємо інформацію третім особам.</div>
+    </div>
+</section>
+      <footer class="footer-section">
+        
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h3 class="footer-logo">TICKET 2 LOVE</h3>
+            <p>Знайдіть своє кохання вже сьогодні 💌</p>
+        </div>
+   <div class="footer-socials">
+    
+    <a href="https://www.instagram.com/ticket_2_love" class="social-btn instagram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16.5 2H7.5C4.46 2 2 4.46 2 7.5v9C2 19.54 4.46 22 7.5 22h9c3.04 0 5.5-2.46 5.5-5.5v-9C22 4.46 19.54 2 16.5 2zM20 7.5v9c0 1.38-.72 2.5-2 2.5H7.5c-1.38 0-2.5-.72-2.5-2V7.5c0-1.28.72-2.5 2.5-2.5H18c1.28 0 2 .72 2 2.5zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm5.5-2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+        </svg>
+        <span>Instagram</span>
+    </a>
+    
+    <a href="https://t.me/bkXWiZCwh3Y3YWNi" class="social-btn telegram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.1 7.2L6.5 11.5c-1.1.4-1.1 1-.2 1.3l2.8 1.4 6.7-4.2c.4-.2.8-.1.5.2l-5.4 5.1-.3 2.9c.3 0 .5-.1.8-.3l2.7-2.6 3.7 2.2c.7.4 1.1.2 1.3-.6l2-9.4c.2-.7-.3-1.1-1.1-.8z"/>
+        </svg>
+        <span>Telegram</span>
+    </a>
+    
+    <a href="https://www.tiktok.com/@ticket_2_love" class="social-btn tiktok" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16.6 0a.84.84 0 00-.6.3C15.5 1.5 14.5 2.4 13.5 3c-.5.3-1.1.5-1.7.5H9.7v7.5c0 .5-.4.8-.8.8-.4 0-.7-.3-.7-.8v-3.7c0-.5-.4-.8-.8-.8s-.8.3-.8.8V17c0 3.3 2.7 6 6 6h1.2c.4 0 .7-.3.7-.8s-.3-.8-.8-.8h-1.2c-2.5 0-4.5-2-4.5-4.5V9.4c.5-.3 1.1-.4 1.7-.4h2.2c.5 0 1.1-.1 1.7-.5 1-1 2-1.8 3-2.6.4-.3.6-.9.6-1.5V.8a.84.84 0 00-.3-.6z"/>
+    </svg>
+        <span>TikTok</span>
+    </a>
+    
+    <a href="ВАШЕ_ПОСИЛАННЯ_НА_FACEBOOK" class="social-btn facebook" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M 17.1711 15.4688 L 17.7031 12 H 14.375 V 9.75 C 14.375 8.80078 14.8391 7.875 16.3297 7.875 H 17.8438 V 4.92188 C 17.8438 4.92188 16.4703 4.6875 15.1578 4.6875 C 12.4156 4.6875 10.625 6.34922 10.625 9.35625 V 12 H 7.57812 V 15.4688 H 10.625 V 23.8547 C 11.2367 23.9508 11.8625 24 12.5 24 C 13.1375 24 13.7633 23.9508 14.375 23.8547 V 15.4688 H 17.1711 Z"/>
+        </svg>
+        <span>Facebook</span>
+    </a>
+</div>
+        <div class="footer-legal">
+            <p>&copy; 2025 Ticket 2 Love. Усі права захищені.</p>
+            <p><a href="#">Політика конфіденційності</a> | <a href="#">Умови використання</a></p>
+        </div>
+    </div>
+</footer>
+   <script src="js/profiles.js"></script>
+<script src="js/script.js"></script>
+    <!-- AOS Анімація -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-quart',
+    once: true,
+    offset: 100
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
