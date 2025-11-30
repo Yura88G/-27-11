@@ -280,54 +280,53 @@ button, input, textarea, .main-nav a, .logo {
     }
     
     /* . Кнопка Дзвінок (Contrast Badge): ПОКАЗУЄМО */
-/* . Кнопка Дзвінок (Contrast Badge): ПОКАЗУЄМО */
 .header-call-btn {
-    display: flex; /* Центрування SVG */
+    display: flex; /* Показуємо як flex для центрування SVG */
     align-items: center;
     justify-content: center;
-
+    
     /* Позиціонування */
     position: absolute;
     top: 50%;
     right: 85px;
     transform: translateY(-50%);
-
+    
     /* Дизайн: Contrast Badge */
-    background-color: #F8F8F6;
+    background-color: #F8F8F6; 
     border-radius: 50%;
     width: 44px;
     height: 44px;
-
+    
     /* Естетика */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header-call-btn svg {
-    fill: #570009; /* Темна трубка */
+    fill: #570009; /* Темна іконка на світлому бейджі */
     width: 26px;
     height: 26px;
     display: block;
 
-    /* Анімація вібрації */
-    animation: vibrate 0.3s infinite;
+    /* Анімація пульсації іконки */
+    animation: pulse-icon 1.5s infinite ease-in-out;
 }
 
-/* Ефект при натисканні */
+/* 4. Анімація кнопки Дзвінок (Touch Feedback) */
 .header-call-btn:active {
-    transform: translateY(-50%) scale(0.9);
-    box-shadow: 0 0 10px rgba(248, 248, 246, 0.8), 0 0 15px rgba(248, 248, 246, 0.5);
+    /* Ефект 1: Tactile Press */
+    transform: translateY(-50%) scale(0.9); 
+    
+    /* Ефект 2: Subtle Glow */
+    box-shadow: 0 0 10px rgba(248, 248, 246, 0.8), 0 0 15px rgba(248, 248, 246, 0.5); 
 }
 
-/* Ключові кадри для вібрації */
-@keyframes vibrate {
-    0%   { transform: translate(0); }
-    25%  { transform: translate(-1px, 1px); }
-    50%  { transform: translate(1px, -1px); }
-    75%  { transform: translate(-1px, -1px); }
-    100% { transform: translate(1px, 1px); }
+/* Ключові кадри для пульсації іконки */
+@keyframes pulse-icon {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
-
-    /* . СТИЛІ SLIDE-OVER МЕНЮ */
+  /* . СТИЛІ SLIDE-OVER МЕНЮ */
     .mobile-menu {
         position: fixed;
         top: 0;
@@ -1943,6 +1942,7 @@ body.menu-open {
         row-gap: 5px; /* Максимально зменшуємо відстань між рядками кнопок */
     }
 }
+
 
 
 
